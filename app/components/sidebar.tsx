@@ -113,7 +113,7 @@ export function SideBar(props: { className?: string }) {
   useHotKey();
 
   return (
-    <div
+     <div
       className={`${styles.sidebar} ${props.className} ${
         shouldNarrow && styles["narrow-sidebar"]
       }`}
@@ -123,7 +123,7 @@ export function SideBar(props: { className?: string }) {
           LnnLee ChatGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          Kenne's own AI assistant.
+          Your own AI assistant.-Kenne-
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
